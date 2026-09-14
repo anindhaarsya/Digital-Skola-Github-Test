@@ -1,4 +1,4 @@
-def jumlahkan(num_1, num_2=10) -> int:
+def jumlahkan(num_1: int, num_2: int = 10) -> int:
     return num_1 + num_2
 
 class Angka:
@@ -7,9 +7,3 @@ class Angka:
 
     def add_new(self, other_num: int):
         self.number = jumlahkan(self.number, other_num)
-
-
-
-
-
-
